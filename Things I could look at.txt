@@ -1,0 +1,7 @@
+Distribution of releases over time (histogram of release years)
+
+Publishers working with the highest number of developers
+
+Developers with the most games
+
+publishers with the most games
