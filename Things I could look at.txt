@@ -16,15 +16,15 @@ Things my analysis shows:
 
 Presentation Script:
 
-I want to introduce you to a dashboard that I created, which is intended to help you understand some aspects of the history and production context of a specific genre of computer games that I call "simulator games."
+Title slide: I want to introduce you to a dashboard that I created, which is intended to help you understand some aspects of the history and production context of a specific genre of computer games that I call "simulator games."
 
-Simulator games are nonfiction simulations of industrial work and machines which attempt to portray their subject matter realistically. As a genre, simulator games have a long, transnational history, beginning as training and testing tools in military and automotive contexts and eventually becoming popular, commercial video games. 
+Slide 2: Simulator games are nonfiction simulations of industrial work and machines which attempt to portray their subject matter realistically. As a genre, simulator games have a long, transnational history, beginning as training and testing tools in military and automotive contexts and eventually becoming popular, commercial video games. 
 
-Some of the more well-known examples of games from this genre include the "Microsoft Flight Simulator" series, and a more recent and popular series is the "Farming Simulator" series.
+Slide 3: Some of the more well-known examples of games from this genre include the "Microsoft Flight Simulator" series, and a more recent and popular series is the "Farming Simulator" series.
 
-It is often the case that marketing campaigns, popular discourse, journalism, and sometimes even research into computer games fail to communicate the production context and history of a genre – this dashboard aims to reunite the genre of simulator games with some aspects of its historical production context.
+Slide 4: It is often the case that marketing campaigns, popular discourse, journalism, and sometimes even research into computer games fail to communicate the production context and history of a genre – this dashboard aims to reunite the genre of simulator games with some aspects of its historical production context.
 
-To build this dashboard, I collected data from the online games database MobyGames.com through their API, and the dashboard itself is built in PowerBI. The data I'm working with is 1250 games in MobyGames' "vehicle simulation" genre category. This genre category is the closest approximation to the simulator game genre, and Mobygames describes the genre in the following way:
+Slide 5: To build this dashboard, I collected data from the online games database MobyGames.com through their API, and the dashboard itself is built in PowerBI. The data I'm working with is 1250 games in MobyGames' "vehicle simulation" genre category. This genre category is the closest approximation to the simulator game genre, and Mobygames describes the genre in the following way:
 
 "Vehicle Simulator games are games in which the player takes control of any type of vehicle in a peaceful manner. A game is required to have a certain level of realism to be considered a simulator. Vehicles may be fictional such as space ships. This genre is not to be used for games that allow the player to perform combat in said vehicles; use Vehicular Combat Simulator instead."
 
@@ -37,6 +37,7 @@ Every game can have multiple genre categories, but every game in this dataset of
 - Platform (for first release)
 - Year of first release
 - Url on MobyGames
+- All Genre tags for each game
 
 With that context, I'll walk you through the dashboard and some of the insights I've gained by analyzing this data.
 
